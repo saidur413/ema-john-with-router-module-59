@@ -20,6 +20,7 @@ const Login = () => {
         signIn(email, password)
             .then(result=>{
                 const user = result.user;
+                form.reset();
                 navigate(from, {replace:true});
                 console.log(user);
             })
