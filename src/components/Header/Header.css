@@ -17,3 +17,8 @@
 .header a:hover{
     color: orange;
 }
+
+.email{
+    color: red;
+    margin-left: 15px;
+}
